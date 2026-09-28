@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shifttable",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shift digests and table fingerprints for local integrity checks.",
+  "bin": {
+    "shifttable": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shifttable.git"
+  },
+  "homepage": "https://theworker02.github.io/shifttable/",
+  "keywords": [
+    "shift",
+    "table",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
